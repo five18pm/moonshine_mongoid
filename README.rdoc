@@ -7,6 +7,6 @@ installs using the Ubuntu package rather than via source.
 
 === Instructions
 
-* <tt>script/plugin install git://github.com/five18pm/moonshine_mongoid.git</tt>
+* <tt>rails plugin install git://github.com/five18pm/moonshine_mongoid.git</tt>
 * Include the recipe in your Moonshine manifest
     recipe :mongodb
