@@ -1,0 +1,12 @@
+= Moonshine Mongoid
+
+=== A plugin for Moonshine[http://github.com/railsmachine/moonshine]
+
+A plugin for installing and managing mongodb. Based on {orderedlist's plugin}[http://github.com/orderedlist/moonshine_mongodb] but 
+installs using the Ubuntu package rather than via source.
+
+=== Instructions
+
+* <tt>script/plugin install git://github.com/five18pm/moonshine_mongoid.git</tt>
+* Include the recipe in your Moonshine manifest
+    recipe :mongodb
